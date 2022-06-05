@@ -19,7 +19,7 @@ function createDiv(e) {
         content.addEventListener('mouseover',changeColor);
         content.setAttribute('id', 'div' + i);
         content.setAttribute('style', 'order: ' + i + '; width: '+maxWidth+'%;');
-        content.textContent = i;
+        content.textContent = '';
         container.appendChild(content);
     }
 }
