@@ -6,6 +6,10 @@ const btn = document.querySelector('button');
 function createDiv(e) {
     //console.log(e);
     const divCount1 = document.querySelector('#numOfDivs');
+    if (divCount1.value > 100) {
+        divCount1.value = 100;
+        alert("Maximum number of Grid Rows is 100.");
+    }
     let numDiv = (divCount1.value)*(divCount1.value);
     const maxWidth = (1 / divCount1.value)*100;
     divCount = divCount + 1;    
