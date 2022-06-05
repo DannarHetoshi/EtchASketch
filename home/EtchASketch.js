@@ -35,12 +35,7 @@ function random_rgb(){
 
 function changeColor(e) {
     const divX = document.getElementById(e);
-    
     e.target.style.backgroundColor = random_rgb();
 } 
 
 btn.addEventListener('click', createDiv);
-var hovEvent = document.querySelectorAll('div');
-for (let i=0;i<hovEvent.length;i++) {
-    hovEvent[i].addEventListener('click', changeColor, false);
-}
