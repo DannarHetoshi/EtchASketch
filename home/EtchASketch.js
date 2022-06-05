@@ -13,10 +13,10 @@ function createDiv(e) {
     let numDiv = (divCount1.value)*(divCount1.value);
     const maxWidth = (1 / divCount1.value)*100;
     divCount = divCount + 1;    
-    const container = document.querySelector("#DH-container");
+    const container = document.querySelector("#DH-container-eas");
     container.innerHTML = '';
     for (i = 1; i <= numDiv; i++) {
-        const container = document.querySelector("#DH-container");
+        const container = document.querySelector("#DH-container-eas");
         const content = document.createElement('div');
         //console.log(i);
         content.classList.add('content');
