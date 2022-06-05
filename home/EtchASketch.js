@@ -1,6 +1,5 @@
 let divCount = 1;               
 
-
 const btn = document.querySelector('button');
 function createDiv(e) {
 //console.log(e);
